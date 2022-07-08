@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #202124;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 6px;
+    width: 100%;
+    height: 60PX;
+}
+
+
+header nav .nav-header-right{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+header nav .nav-header-right a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #3c4043;
+    font-size: 13px;
+}
+
+nav .nav-header-right .menu-icon img{
+   width: 32px;
+   height: 32px;
+   padding: 5px;
+    
+   
+}
+
+nav .nav-header-right .menu-icon img:hover{
+    background-color:#f2f2f2;
+    border-radius: 15px;
+}
+
+nav .nav-header-right .menu-user img{
+    border-radius: 50px;
+    padding:5px;
+}
+
+nav .nav-header-right .menu-user img:hover{
+    background-color:#f2f2f2;
+    border-radius: 25px;
+}
+
+.logoCentral{
+
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.logoCentral img{
+    width: 272px;
+    height: 92px;
+    
+    
+    
+}
+
+.buscar{
+    text-align: center;
+}
+
+input{
+    width: 600px;
+    height: 50px;
+    margin-top: 65px;
+    border: 1px solid #dadce0;
+    border-radius: 25px;
+}
+.botones{
+    text-align: center;
+    padding: 20px 6px;
+        
+}
+
+button{
+
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;;
+    padding: 0px 16px;
+    color: #3c4043;
+    border-radius: 4px;
+    margin: 11px 4px;
+    height: 36px;
+    cursor: pointer;
+
+}
+
+button:hover{
+   
+    border-color: #dadce0;
+}
+
+
+main p {
+    text-align: center;
+    font-size:small ;
+    margin-bottom: 24px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #202124;
+    
+}
+.footer p{
+    text-align: left;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;;
+}
+
+.footer li{
+    display: inline;
+    color: #3c4043;
+    padding: 0px 6px;
+}

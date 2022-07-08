@@ -151,3 +151,23 @@ main .main-buttons button:hover{
     border: 1px solid #dfe1e5;
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
 }
+
+footer {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    
+}
+
+footer .footer-nav li{
+    list-style: none;
+        
+
+}
+
+
+footer .footer-nav a{
+    text-decoration:none;
+    color: #70757a;
+}

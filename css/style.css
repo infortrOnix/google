@@ -138,3 +138,7 @@ main p {
     color: #3c4043;
     padding: 0px 6px;
 }
+
+.footer li a{
+    text-decoration: none;
+}

@@ -200,3 +200,6 @@ footer {
     
 }
    
+ul li a:hover {
+    text-decoration: underline;
+}

@@ -155,7 +155,7 @@ main .main-buttons button:hover{
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
 }
 
-footer {
+.footer-nav {
     width: 100%;
     height: 100px;
     position: absolute;
@@ -166,6 +166,10 @@ footer {
     color: #70757a;
     background-color: #eceef1;
     bottom: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
  
     
@@ -174,19 +178,30 @@ footer {
 .footer-nav p{
     border-bottom: 1px solid #dadce0;
     padding-bottom: 10px;
+    
 }
 
-.footer-nav ul{
+.footer-nav-izq {
     display: flex;
-    justify-content:flex-start
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.footer-nav-der {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
 }
 
 .footer-nav li{
         
-    display: inline-block;
+    display: inline;
     margin-left: 15px;
     padding-top: 20px;
     font-size: 12px;
+
        
    
 }
